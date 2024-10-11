@@ -1,8 +1,10 @@
+*{
+   box-sizing: border-box; 
+}
 body {
+    border: 2px solid yellow;
     background-color: #1F2937;
     font-family: "Verdana",sans-serif;
-    width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,56 +39,19 @@ a {
 }
 
 .main_body {
+    border: 2px solid yellow;
+    width:100%;
     flex: 1;
-    border: 2px solid green;
-    width: 100%;
     display:flex;
     flex-direction: column;
 }
 
 .one {
-    border: 2px solid blue;
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
-}
-.one_text {
-    border: 2px solid blue;
-    width: 30%;
-    display: flex;
-    flex-wrap: wrap;
-}
-.one_text h4 {
-    font-size: 48px;
-    color: black;
-    font-weight: 900;
-    margin: 0;
+
 }
 
-.one_text p {
-    font-size: 18px;
-    text-wrap: wrap;
-}
-
-.one img {
-    border: 5px solid white;
-    width: 400px;
-    height: 250px;
-}
-
-.one button {
-    border: none;
-    border-radius: 10px;
-    padding: 8px 24px;
-    font-weight: bold;
-    color: white;
-    background-color: maroon;
-}
 
 .two {
-    border: 1px solid lightblue;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -109,7 +74,6 @@ a {
     height: 150px;
 }
 .cards {
-    border: 1px solid lightblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,11 +85,56 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid lightblue;
     width: 200px;
     height: 200px;
 }
 
+.three {
+    background-color: lightgrey;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.three_top {
+    width:80%;
+    text-align: center;
+
+}
+.three_btm {
+    width:80%;
+    text-align: right;
+    font-weight: bold;
+}
+
+.four {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.four_box{
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    color: white;
+}
+
+.f_head {
+    font-size: 18px;
+    font-weight: bold;
+}
 .footer {
     color: white;
     width: 100%;
